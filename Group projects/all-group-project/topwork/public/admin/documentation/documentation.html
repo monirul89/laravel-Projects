@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Bootstrap 3 Admin Template</title>
+
+        <!-- Bootstrap CSS -->    
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <!-- bootstrap theme -->
+        <link href="../css/bootstrap-theme.css" rel="stylesheet">
+        <!--external css-->
+        <!-- font icon -->
+        <link href="../css/elegant-icons-style.css" rel="stylesheet" />
+        <link href="../css/font-awesome.min.css" rel="stylesheet" />
+        <!-- Custom styles -->
+        <link href="../css/animate.css" rel="stylesheet" />
+        <link href="../css/style.css" rel="stylesheet">
+        <link href="../css/style-responsive.css" rel="stylesheet" />
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+          <script src="js/lte-ie7.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+    <!-- container section start -->
+    <section id="container" class="">
+        <!--header start-->
+        <header id="header" class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+            </div>
+
+            <!--logo start-->
+            <a href="../dashboard-1.html" class="logo">Bojo <span class="lite">Mojo</span></a>
+            <!--logo end-->
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-left top-menu nav-left">
+                    <!--  search form start -->
+                    <li id="topnav_search_bar" class="hidden-md hidden-sm hidden-xs">
+                        <input class="form-control round-input" placeholder="Search..." type="text">
+                        <!--  search form end -->
+                    </li>
+                    <!-- task notificatoin start -->
+                    <li id="" class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="fa fa-book"></i><span class="pl-4">Documentation of <b>BOJO MOJO</b></span>
+                        </a>
+                        <ul class="dropdown-menu extended tasks-bar animated fadeInUp">
+                            <div class="notify-arrow-left notify-arrow-gray"></div>
+                            <li class="dropdown-header clearfix">
+                                <ul class="nav nav-tabs row">
+                                    <li class="active col-md-4">
+                                        <a data-toggle="tab" href="#dropdown-one">
+                                            <i class="fa fa-home"></i>
+                                        </a>
+                                    </li>
+                                    <li class=" col-md-4">
+                                        <a data-toggle="tab" href="#dropdown-tw0">
+                                            <i class="fa fa-user"></i>
+                                        </a>
+                                    </li>
+                                    <li class=" col-md-4">
+                                        <a data-toggle="tab" href="#dropdown-three">
+                                            <i class="fa fa-share-alt-square"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-body tab-content">
+                                <div id="dropdown-one" class="tab-pane active">
+                                    <div>
+                                        <a href="#">
+                                            <div class="task-info">
+                                                <div class="desc">Design PSD </div>
+                                                <div class="percent">90%</div>
+                                            </div>
+                                            <div class="progress progress-striped">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                                    <span class="sr-only">90% Complete (success)</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#">
+                                            <div class="task-info">
+                                                <div class="desc">
+                                                    Project 1
+                                                </div>
+                                                <div class="percent">30%</div>
+                                            </div>
+                                            <div class="progress progress-striped">
+                                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                                    <span class="sr-only">30% Complete (warning)</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#">
+                                            <div class="task-info">
+                                                <div class="desc">Digital Marketing</div>
+                                                <div class="percent">80%</div>
+                                            </div>
+                                            <div class="progress progress-striped">
+                                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                                    <span class="sr-only">80% Complete</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#">
+                                            <div class="task-info">
+                                                <div class="desc">Logo Designing</div>
+                                                <div class="percent">78%</div>
+                                            </div>
+                                            <div class="progress progress-striped">
+                                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
+                                                    <span class="sr-only">78% Complete (danger)</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="#">
+                                            <div class="task-info">
+                                                <div class="desc">Mobile App</div>
+                                                <div class="percent">50%</div>
+                                            </div>
+                                            <div class="progress progress-striped active">
+                                                <div class="progress-bar"  role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                                    <span class="sr-only">50% Complete</span>
+                                                </div>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="dropdown-tw0" class="tab-pane">
+
+                                </div>
+                                <div id="dropdown-three" class="tab-pane">
+                                    
+                                </div>
+                            </li>
+                            <li class="dropdown-footer clearfix">
+                                <a href="#">See All Tasks</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>         
+        <!--header end-->
+
+        <!--sidebar start-->
+        <aside>
+            <div id="sidebar"  class="nav-collapse sidebar">
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu">                
+                    <li>
+                        <a class="" href="#dashboard">
+                            <i class="fa fa-home"></i>
+                            <span class="text">Dashboard</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#navbar">
+                            <i class="fa fa-building-o"></i>
+                            <span class="text">Navbar</span>
+                            <span class="label label-success label-tag">2</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#format">
+                            <i class="fa fa-window-restore"></i>
+                            <span class="text">Formats</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#email">
+                            <i class="fa fa-envelope"></i>
+                            <span class="text">Email</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#layout">
+                            <i class="fa fa-copy"></i>
+                            <span class="text">Layouts</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#feature">
+                            <i class="fa fa-telegram"></i>
+                            <span class="text">UI Features</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="" href="#forms">
+                            <i class="fa fa-file"></i>
+                            <span class="text">Forms</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>       
+
+                    <li>
+                        <a class="" href="#helper">
+                            <i class="fa fa-asterisk"></i>
+                            <span class="text">Helpers</span>
+                            <span class="label label-info label-tag">Help</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="" href="#panels">
+                            <i class="fa fa-list-alt"></i>
+                            <span class="text">Panels</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#tiles">
+                            <i class="fa fa-hard-of-hearing"></i>
+                            <span class="text">Tiles</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#table">
+                            <i class="fa fa-table"></i>
+                            <span class="text">Tables</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#ecommerce">
+                            <i class="fa fa-shopping-bag"></i>
+                            <span class="text">E-commerce</span>
+                            <span title="Primary" class="label-tag label label-primary">10</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#slider">
+                            <i class="fa fa-sliders"></i>
+                            <span class="text">Slider</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#lightbox">
+                            <i class="fa fa-lightbulb-o"></i>
+                            <span class="text">Lightbox</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="#animation" class="">
+                            <i class="fa fa-share-alt-square"></i>
+                            <span class="text">Animation</span>
+                            <span class="label label-danger label-tag">35</span>
+                        </a>
+                    </li> -->
+
+                    <li>
+                        <a href="#landing">
+                            <i class="fa fa-rss-square"></i>
+                            <span class="text">Landing Page</span>
+                            <span class="label label-warning label-tag">New</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#galleries">
+                            <i class="fa fa-image"></i>
+                            <span class="text">Galleries</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <!-- <li>
+                        <a class="" href="#app">
+                            <i class="fa fa-snowflake-o"></i>
+                            <span class="text">App Reviews</span>
+                            <span class="label label-success label-tag">Exclusive</span>
+                        </a>
+                    </li> -->
+
+                    <li>
+                        <a class="" href="#maps">
+                            <i class="fa fa-map"></i>
+                            <span class="text">Maps</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <!-- <li>                     
+                        <a class="" href="#calendar">
+                            <i class="fa fa-calendar"></i>
+                            <span class="text">Calendar</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>                
+                    </li> -->
+                    
+                    <li>                     
+                        <a class="" href="#charts">
+                            <i class="fa fa-area-chart"></i>
+                            <span class="text">Charts & Stocklines</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>              
+                    </li>
+
+                    <!-- <li>                     
+                        <a class="" href="#stocklines">
+                            <i class="fa fa-line-chart"></i>
+                            <span class="text">Stocklines</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>               
+                    </li> -->
+
+                    <!-- <li>
+                        <a class="" href="#fileupload">
+                            <i class="fa fa-cloud-upload"></i>
+                            <span class="text">File Upload</span>
+                        </a>
+                    </li> -->
+
+                    <!-- <li>
+                        <a class="" href="#search">
+                            <i class="fa fa-search"></i>
+                            <span class="text">Search</span>
+                        </a>
+                    </li> -->
+
+                    <li>
+                        <a class="" href="#pages">
+                            <i class="icon_documents_alt"></i>
+                            <span class="text">Pages</span>
+                            <span class="drop-arrow fa fa-arrows-h"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="" href="#profile">
+                            <i class="fa fa-user-circle"></i>
+                            <span class="text">Profile</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- sidebar menu end-->
+            </div>
+        </aside>
+        <!--sidebar end--> 
+
+        <!--main content start-->
+        <section id="main-content" class="documentation">
+            <section class=" wrapper" id="top">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="page-header"><i class="fa fa-book"></i> <span>Documentation</span></h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="dashboard" class="panel-heading">
+                        		<h2>Dashboard</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                There are three samples of dashboard. They are the demos, you change them by your own or take help from us
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+        
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <section class="panel panel-default">
+                        	<div id="navbar" class="panel-heading">
+                        		<h2>Navbar</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                <code>2 types of sidebar, customer use it by their choice. </code>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="format" class="panel-heading">
+                        		<h2>Format</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                There are two samples of format. <br>
+                                One of the format contains user id and one is just simple sidebar with header. 
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="email" class="panel-heading">
+                        		<h2>Email</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                There are three samples of Email. <br>
+                                <ol>
+                                	<li>Inbox which is the messages or emails for user</li>
+                                	<li>Inbox read portion where a particular email will shown</li>
+                                	<li>Inbox compose to write email</li>
+                                </ol>
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="layout" class="panel-heading">
+                        		<h2>Layouts</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                There are plenty of samples for layouts <br>
+                                Divided into three sections: 
+                                <ol>
+                                	<li>Sidebar Layouts</li>
+                                	<li>Header Layouts</li>
+                                	<li>Rightbar Layouts</li>
+                                </ol>
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="feature" class="panel-heading">
+                        		<h2>Ui Features</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                There are plenty of samples for features <br>
+                                <ol>
+                                	<li>
+                                		Components will show the basic bootstrao elements like accordion, progressbars, jumbtron etc. 
+									</li>
+									<li>
+										buttons are divided into three portions like large , medium, small and extra small. <br>
+										You have to add <code>btn-lg</code> for large buttons. <br>
+										You have to add <code>btn-md</code> for medium buttons. <br>
+										You have to add <code>btn-sm</code> for small buttons. <br>
+										You have to add <code>btn-xs</code> for extra small buttons. <br>
+										For colors you just have to add some classes, your buttons will turn into that color. <br>
+										<a class="btn btn-primary btn-sm" href="" title="Bootstrap 3 themes generator">Primary</a>
+										<a class="btn btn-success btn-sm" href="" title="Bootstrap 3 themes generator">Success</a>
+										<a class="btn btn-danger btn-sm" href="" title="Bootstrap 3 themes generator">Danger</a>
+										<a class="btn btn-warning btn-sm" href="" title="Bootstrap 3 themes generator">Warning</a>
+									</li>
+									<li>
+										Alerts are just like basic bootstrap
+									</li>
+									<li>
+										Forms are given with a variation, you just have to pick the block and add it. 
+									</li>
+									<li>
+										Like this all other materials are followed by bootstrap.
+									</li>
+                                </ol>
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="feature" class="panel-heading">
+                        		<h2>Forms</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                There are plenty of samples for forms <br>
+                                <ol>
+                                	<li>
+                                		Form wizards are followed with their basic instructions. 
+									</li>
+									<li>
+										Bootstrap forms are given but there is a small change of css.
+									</li>
+                                </ol>
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="feature" class="panel-heading">
+                        		<h2>Helpers</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                You just have to add a particular class for padding, margin or so.<br>
+                                It is given very nicely into the project part through table.
+                                <br>
+                                for an example, if you need padding of 4px allside in a div, just add <code>p4</code>. If margin needed in the right spot, then add <code>mrl-4</code>
+                                here, m means margin, r means right and 4 is the amount which is 4px.   
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="feature" class="panel-heading">
+                        		<h2>Panels</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                First add <code>panel</code> to any panel you want to add. Then change the style by adding <code>panel-default</code>. There are plenty of panel types , also colorful with panel-heading and panel-body. <br>
+                                panel heading consist of two material, panel option which is on the right side and panel h2 heading which is on the left side.    
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="feature" class="panel-heading">
+                        		<h2>Tiles</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                First add <code>tiles</code> to any tiles you want to add. Then change the style by adding <code>tiles-default</code>. There are plenty of tile types , tiles are just same as panel but tiles have some sizes like large, medium, small etc <br>
+                                You have to add <code>tile-md</code> for medium sized tile, <code>tile-sm</code>  for small tiles and so on like this. 
+                                The sizes are divided into 4 items. 
+                                <ol>
+                                	<li>tile-lg</li>
+                                	<li>tile-md</li>
+                                	<li>tile-sm</li>
+                                	<li>tile-xs</li>
+                                </ol>
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                        	<div id="table" class="panel-heading">
+                        		<h2>Table</h2>
+                        		<div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                        	</div>
+                            <div class="panel-body">
+                                First add <code>table</code> to any table you want to add. Then change the style by adding <code>table-default</code>. There are plenty of tile types , table are just same as panel but table have some sizes like large, medium, small etc <br>
+                                You have to add <code>tile-md</code> for medium sized tile, <code>tile-sm</code>  for small table and so on like this. 
+                                The sizes are divided into 3 items. 
+                                <ol>
+                                	<li>table-lg</li>
+                                	<li>table-md</li>
+                                	<li>table-sm</li>
+                                </ol>
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="ecommerce" class="panel-heading">
+                                <h2>Ecommerce</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                Ecommerce is a new addition in admin theme where you can use this custom theme for product sales purpose
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="slider" class="panel-heading">
+                                <h2>Slider</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                Different types of slider is being added , you can choose one from them and use it on the theme.
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="lightbox" class="panel-heading">
+                                <h2>Lightbox</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                4 types of lightbox is being added , you can choose one from them and use it on the theme. 
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="landing" class="panel-heading">
+                                <h2>Landing Pages</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                Landing pages are a new addition to theme, which is not followed as a theme design but it can be used mainly for app design and sales. There is a table added in the leftbar also for app reviews which can be dynamic in case of original data.
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="galleries" class="panel-heading">
+                                <h2>Galleries</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                4 types of galleries included with modern style , you can choose one from them and use it on the theme. 
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="maps" class="panel-heading">
+                                <h2>Maps</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                6 types of maps are included with different CSS styles , you can choose one from them and use it on the theme. 
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="charts" class="panel-heading">
+                                <h2>Charts & Stocklines</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                Charts and stocklines are for data rate checker which is made of JS logic. 
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="pages" class="panel-heading">
+                                <h2>Pages</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                User pages where you will find out also business pages and different pages for error purpose.  
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <section class="panel panel-default">
+                            <div id="profile" class="panel-heading">
+                                <h2>Profile</h2>
+                                <div class="panel-options">
+                                    <a href="#top" class="btn btn-md btn-default">Return to Top</a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                Profiles are added with tabs with 3 different styles for Users. 
+                            </div>
+                        </section>
+                    </div>
+                </div><!--/.row-->
+
+                <div class="footer">
+                    <div class="pull-right">
+                        10GB of <strong>250GB</strong> Available.
+                    </div>
+                    <div>
+                        <strong>Copyright</strong> Company &copy; 2017
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </section>
+    <!-- container section end -->
+
+    <!-- javascripts -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- nice scroll -->
+    <script src="../js/jquery.scrollTo.min.js"></script>
+    <script src="../js/jquery.nicescroll.js" type="text/javascript"></script>
+
+    <!--custome script for all page-->
+    <script src="../js/scripts.js"></script>
+
+    </body>
+</html>
